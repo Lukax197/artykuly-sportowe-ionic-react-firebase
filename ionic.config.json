@@ -1,0 +1,7 @@
+{
+  "name": "projekt_psm",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

@@ -1,0 +1,92 @@
+.ikona {
+    height: 3em;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    background-color: #20c997;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.naglowek {
+    vertical-align: bottom;
+    position: relative;
+    padding: 30px;
+}
+
+.napis {
+    margin-left: 4em;
+}
+
+.login-btn {
+    text-align: right;
+    background-color: aquamarine;
+}
+
+.home-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link-style {
+    text-decoration: none;
+    color: black;
+    width: 60%;
+}
+
+.link-style:hover {
+    animation: animacja 0.2s ease 0s alternate forwards;
+}
+
+@keyframes animacja
+{
+    0% { opacity: 1; }
+    25% { opacity: 0.9; }
+    50% { opacity: 0.85; }
+    75% { opacity: 0.8; }
+    100% {opacity: 0.75; }
+}
+
+.zdjecie {
+    padding: 10px;
+    max-width: 600px;
+}
+
+.tytul {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.list-item:hover {
+    animation: animacja 0.2s ease 0s alternate forwards;
+}
+
+.tool {
+    background-color: #212529;
+    color: white;
+}
+
+.greeting {
+    border: 1px solid #212529;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.dashboardCont {
+    text-align: center;
+    width: 70%;
+    display: inline-block;
+}
+
+.searchDiv {
+    text-align: center;
+}
+
+.search {
+    border-radius: 20px;
+    padding: 10px;
+    width: 50%;
+}
